@@ -1,0 +1,169 @@
+
+#page1 img {
+    max-height: 90vh;
+    width: 100%;
+    object-fit: contain; 
+    user-select: none;
+}
+#ilg {
+    position: absolute;
+    bottom: 20px;
+    left: 16%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+;
+    width: 200px;
+}
+
+#ilg div {
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: auto;
+
+}
+
+
+
+.bx--bxl-instagram-alt, .et--linkedin, .mdi--github {
+    display: inline-block;
+    width: 30px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 50%;
+    margin-top: 3px;
+    
+}
+.mdi--github {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%233a2c2c' d='M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2'/%3E%3C/svg%3E");
+}
+.et--linkedin{
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cg fill='%233a2c2c'%3E%3Cpath d='M19.515 11.952c-.678 0-1.18.171-1.573.387c-.063-.224-.27-.388-.514-.339h-2.984c-.295-.049-.534.19-.443.5v11c-.091.28.148.52.443.5h2.984c.295.02.534-.22.534-.515l-.001-6.648c-.001-.003-.012-.321.189-.54c.161-.174.438-.263.821-.263c.638 0 .922.261 1.028.845v6.606c-.105.295.134.535.429.515h3.145c.295.02.534-.22.428-.515v-6.828c.105-3.472-2.368-4.705-4.486-4.705M23.038 23h-2.076v-6.121c0-1.181-.763-1.913-1.99-1.913c-.694 0-1.234.204-1.606.606c-.517.56-.477 1.27-.366 1.428v6h-2.022v-9.98h1.916v.336a.532.532 0 0 0 .86.423l.14-.108c.405-.319.824-.65 1.622-.65c.826 0 3.523.263 3.523 3.637zM11 6.966c-1.122 0-2.034.912-2.034 2.034s.912 2.034 2.034 2.034s2.034-.912 2.034-2.034S12.122 6.966 11 6.966m0 3c-.532 0-.966-.434-.966-.966s.434-.966.966-.966s.966.434.966.966s-.434.966-.966.966m1.428 1.985H9.46c-.295 0-.534.239-.46.549v11c-.074.28.165.52.46.5h2.968c.295.02.534-.22.534-.515v-11a.534.534 0 0 0-.534-.534M12 23H9.994v-9.98H12z'/%3E%3Cpath d='M16-.034C7.158-.034-.034 7.158-.034 16S7.158 32.034 16 32.034S32.034 24.842 32.034 16S24.842-.034 16-.034m0 31C7.748 30.966 1.034 24.252 1.034 16S7.748 1.034 16 1.034S30.966 7.748 30.966 16S24.252 30.966 16 30.966'/%3E%3C/g%3E%3C/svg%3E");
+}
+.bx--bxl-instagram-alt{
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M20.947 8.305a6.53 6.53 0 0 0-.419-2.216a4.61 4.61 0 0 0-2.633-2.633a6.606 6.606 0 0 0-2.186-.42c-.962-.043-1.267-.055-3.709-.055s-2.755 0-3.71.055a6.606 6.606 0 0 0-2.185.42a4.607 4.607 0 0 0-2.633 2.633a6.554 6.554 0 0 0-.419 2.185c-.043.963-.056 1.268-.056 3.71s0 2.754.056 3.71c.015.748.156 1.486.419 2.187a4.61 4.61 0 0 0 2.634 2.632a6.584 6.584 0 0 0 2.185.45c.963.043 1.268.056 3.71.056s2.755 0 3.71-.056a6.59 6.59 0 0 0 2.186-.419a4.615 4.615 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.187c.043-.962.056-1.267.056-3.71c-.002-2.442-.002-2.752-.058-3.709zm-8.953 8.297c-2.554 0-4.623-2.069-4.623-4.623s2.069-4.623 4.623-4.623a4.623 4.623 0 0 1 0 9.246zm4.807-8.339a1.077 1.077 0 0 1-1.078-1.078a1.077 1.077 0 1 1 2.155 0c0 .596-.482 1.078-1.077 1.078z' fill='%233a2c2c'/%3E%3Ccircle cx='11.994' cy='11.979' r='3.003' fill='%233a2c2c'/%3E%3C/svg%3E");
+
+}
+.about-me {
+    padding: 100px 0;
+   
+}
+.about-me h1 {
+    font-size: 48px;
+    color: #cccccc;
+    
+
+}
+ .about-me h1 span {
+    color: #cddcf3; 
+    
+}
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid #0D6EFD;
+    object-fit: cover ; 
+    
+}
+.developer-title {
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 15px;
+
+}
+.description {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #cccccc;
+    
+}
+#page3{
+
+    color: white;
+    font-family: Arial, sans-serif;
+    user-select: none;
+}
+.skills-section {
+    padding: 50px 0;
+    text-align: center;
+}
+.skills-section h1 {
+    font-size: 48px;
+    margin-bottom: 50px;
+    
+}
+.skill-card {
+    background-color:darkslategray;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;}
+
+    .skill-card:hover {
+        transform: scale(1.05);
+    }
+    .skill-card img {
+        width: 100%;
+        border-radius: 10px;
+    }
+    .skill-title {
+        font-weight: bold;
+        margin-top: 15px;
+    }
+    .project-title {
+        text-align: center;
+        
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: #60aeee;
+      }
+      .project-card {
+        background-color: #2196f3;
+        border-radius: 10px;
+        padding: 20px;
+        text-align: center;
+        margin-bottom: 30px;
+        text-decoration: none;
+        transition: transform 0.3s ease;
+        margin-top: 100px;
+        
+      }
+      .project-card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 10px;
+        
+      }
+      .project-card h4 {
+        margin-top: 15px;
+        font-size: 1.25rem;
+        
+        color: black;
+      }
+      .project-card:hover {
+        transform: scale(1.05);}
+        span.Sdesign{
+            color:#60aeee ;
+        }
+     #button:hover{
+        color:black;
+        background-color: aliceblue;
+
+     }
+     .footer{
+        display: block;
+        unicode-bidi: isolate;
+        user-select: none;
+        background-color:#082942;
+        color: white;
+        text-align: center;
+        height: 12px;
+        font-size: 10px;
+     }
